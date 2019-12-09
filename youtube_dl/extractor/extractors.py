@@ -511,7 +511,6 @@ from .kickstarter import KickStarterIE
 from .kinja import KinjaEmbedIE
 from .kinopoisk import KinoPoiskIE
 from .konserthusetplay import KonserthusetPlayIE
-from .kontrtube import KontrTubeIE
 from .krasview import KrasViewIE
 from .ku6 import Ku6IE
 from .kusi import KUSIIE
@@ -1290,7 +1289,6 @@ from .videomore import (
     VideomoreVideoIE,
     VideomoreSeasonIE,
 )
-from .videopremium import VideoPremiumIE
 from .videopress import VideoPressIE
 from .vidio import VidioIE
 from .vidlii import VidLiiIE
