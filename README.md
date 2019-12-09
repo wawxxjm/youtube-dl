@@ -312,6 +312,7 @@ Alternatively, refer to the [developer instructions](#developer-instructions) fo
 
 ## Workarounds:
     --encoding ENCODING              Force the specified encoding (experimental)
+                                     example: youtube-dl --encoding UTF-8 [URL]
     --no-check-certificate           Suppress HTTPS certificate validation
     --prefer-insecure                Use an unencrypted connection to retrieve
                                      information about the video. (Currently
@@ -1373,7 +1374,7 @@ $ youtube-dl -v <your command line>
 [debug] System config: []
 [debug] User config: []
 [debug] Command-line args: [u'-v', u'https://www.youtube.com/watch?v=BaW_jenozKcj']
-[debug] Encodings: locale cp1251, fs mbcs, out cp866, pref cp1251
+[debug] s: locale cp1251, fs mbcs, out cp866, pref cp1251
 [debug] youtube-dl version 2015.12.06
 [debug] Git HEAD: 135392e
 [debug] Python version 2.6.6 - Windows-2003Server-5.2.3790-SP2
